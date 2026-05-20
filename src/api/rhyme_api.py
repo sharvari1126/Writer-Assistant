@@ -1,6 +1,6 @@
 import requests
 
-def get_rhyme(word):
+def get_rhymes(word):
 
     url = f"https://api.datamuse.com/words?rel_rhy={word}"
 
